@@ -1,10 +1,8 @@
 # Area
 
 
- a = float(input('Enter first side: '))
- b = float(input('Enter second side: '))
- c = float(input('Enter third side: '))
+ a = float(input('Enter size of the side: '))
+ 
 
-
-area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
-print('The area of the triangle is %0.2f' %area)
+area = a **2.0
+print('The area of the square is %0.2f' %area)
